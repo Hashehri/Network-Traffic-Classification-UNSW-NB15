@@ -1,4 +1,4 @@
-# Detecting Intrusion of Network Traffic
+# Detecting Malicious Attacks Through The Network Traffic
 
 By(Hatim Alshehri & Fahad Alnafisa)
 
@@ -7,4 +7,7 @@ The network intrusion detection system (NIDS) has become an essential tool for d
 The project goal is to detect and examine network traffic from malicious attacks by generating a machine learning model to classify the network traffic.
 
 
-# 
+# Data:
+This data set has a hybrid of the real modern normal and the contemporary synthesized attack activities of the network traffic. Existing and novel methods are utilised to generate the features of the UNSW- NB15 data set. This data set is available [here](https://cloudstor.aarnet.edu.au/plus/index.php/s/2DhnLGDdEECo4ys?path=%2FUNSW-NB15%20-%20CSV%20Files%2Fa%20part%20of%20training%20and%20testing%20set).
+
+*  The obtained dataset consists of over 250,000 network traffic records with 45 features.
