@@ -10,8 +10,8 @@ The project goal is to detect and examine network traffic from malicious attacks
 Intrusion Detection Systems (IDS) are precisely present to prevent attacks and infiltration to Networks, which might affect the organization. They monitor network traffic for suspicious activities and issue alert in case of issues.
 
 ### Types if IDS:
-1. Signature-based intrusion detection– In this kind incoming attacks are compared with pre-existing database of known attacks.
-2. Anomaly-based intrusion detection- It uses statistics to form a baseline usage of the networks at different time intervals. They were introduced to detect unknown attacks.
+* Signature-based intrusion detection– In this kind incoming attacks are compared with pre-existing database of known attacks.
+* Anomaly-based intrusion detection- It uses statistics to form a baseline usage of the networks at different time intervals. They were introduced to detect unknown attacks.
 
 Based on where they discover, they can be classified into:
 * Network intrusion detection (NIDS)
