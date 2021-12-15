@@ -12,7 +12,7 @@
 data set, there are total nine categories of attack and normal is non-attack.
 * In train data most occured attack data categories are "Generic", "Exploits", Fuzzers", "DoS" and "Reconnaissance"
 
-<img width="610" alt="Screen Shot 2021-12-15 at 11 40 30 PM" src="https://user-images.githubusercontent.com/89771282/146261734-b8ebe6ae-483e-46e5-8251-603833bbd359.png">
+<img width="750" alt="Screen Shot 2021-12-15 at 11 40 30 PM" src="https://user-images.githubusercontent.com/89771282/146261734-b8ebe6ae-483e-46e5-8251-603833bbd359.png">
 
 
 ## Baseline Modeling Result:
