@@ -33,40 +33,40 @@ This data set has a hybrid of the real modern normal and the contemporary synthe
 
 #| Field Name  | Description |
 -| ----------- | ----------- |
-1| id          | unique identifier for each attack |
-2| dur         | Record total duration         |
-3| proto       | Transaction protocol      |
-4| service     | http, ftp, ssh, dns ..,else (-) |
-5| state       | The state and its dependent protocol, e.g. ACC, CLO, else (-) |
-6| spkts       | Source to destination packet count |
-7| dpkts       | Destination to source packet count |
-8| sbytes      | Source to destination bytes         |
-9| dbytes      | Destination to source bytes|
-10| rate        |                                     |
-11| sttl        | Source to destination time to live         |
-12| dttl        | Destination to destination time to live     | 
-13| sload       | Source packets retransmitted or dropped      |
-14| dload       | Destination packets retransmitted or dropped      |
-15| sloss       | Source packets retransmitted or dropped
-16| dloss       | Destination packets retransmitted or dropped     |
-17| sinpkt      | Source inter-packet arrival time (mSec)         |
-18| dinpkt      | Destination inter-packet arrival time (mSec)    |
-19| sjit        | Source jitter (mSec)                            |
-20| djit        | Destination jitter (mSec)                     |
-21| swin        | Source TCP window advertisement               |
-22| dwin        | Destination TCP window advertisement          |
-23| stcpb       | Source TCP sequence number                    |
-24| dtcpb       | Destination TCP sequence number               |
-25| tcprtt      | The sum of ’synack’ and ’ackdat’ of the TCP   |
-26| synack      | The time between the SYN and the SYN_ACK packets of the TCP |
-27| ackdat      | The time between the SYN_ACK and the ACK packets of the TCP |
-28| smean       | Mean of the flow packet size transmitted by the src         |
-29| dmean       | Mean of the flow packet size transmitted by the dst         |
-30| trans_depth | the depth into the connection of http request/response transaction |
-31| response_body_len | The content size of the data transferred from the server’s http service |
-32| ct_srv_src     | No. of connections that contain the same service (4) and destination address (3) in 100 connections according to the last time (26)
-33| attack_cat | The name of each attack category. In this data set, nine categories (e.g., Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms) |
-34| label | 0 if it is normal otherwise 1 | 
+| id          | unique identifier for each attack |
+| dur         | Record total duration         |
+| proto       | Transaction protocol      |
+| service     | http, ftp, ssh, dns ..,else (-) |
+| state       | The state and its dependent protocol, e.g. ACC, CLO, else (-) |
+| spkts       | Source to destination packet count |
+| dpkts       | Destination to source packet count |
+| sbytes      | Source to destination bytes         |
+| dbytes      | Destination to source bytes|
+| rate        | The avrage attack rate           |
+| sttl        | Source to destination time to live         |
+| dttl        | Destination to destination time to live     | 
+| sload       | Source packets retransmitted or dropped      |
+| dload       | Destination packets retransmitted or dropped      |
+| sloss       | Source packets retransmitted or dropped
+| dloss       | Destination packets retransmitted or dropped     |
+| sinpkt      | Source inter-packet arrival time (mSec)         |
+| dinpkt      | Destination inter-packet arrival time (mSec)    |
+| sjit        | Source jitter (mSec)                            |
+| djit        | Destination jitter (mSec)                     |
+| swin        | Source TCP window advertisement               |
+| dwin        | Destination TCP window advertisement          |
+| stcpb       | Source TCP sequence number                    |
+| dtcpb       | Destination TCP sequence number               |
+| tcprtt      | The sum of ’synack’ and ’ackdat’ of the TCP   |
+| synack      | The time between the SYN and the SYN_ACK packets of the TCP |
+| ackdat      | The time between the SYN_ACK and the ACK packets of the TCP |
+| smean       | Mean of the flow packet size transmitted by the src         |
+| dmean       | Mean of the flow packet size transmitted by the dst         |
+| trans_depth | the depth into the connection of http request/response transaction |
+| response_body_len | The content size of the data transferred from the server’s http service |
+| ct_srv_src     | No. of connections that contain the same service (4) and destination address (3) in 100 connections according to the last time (26)
+| attack_cat | The name of each attack category. In this data set, nine categories (e.g., Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms) |
+| label | 0 if it is normal otherwise 1 | 
 
 ## Tools:
 * python 3.9
