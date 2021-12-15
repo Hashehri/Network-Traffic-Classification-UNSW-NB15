@@ -1,13 +1,30 @@
-# Detecting Malicious Attacks Through The Network Traffic
+### Detecting Malicious Attacks Through The Network Traffic
 
 By(Hatim Alshehri & Fahad Alnafisa)
 
-# Abstract:
+## Abstract:
 The network intrusion detection system (NIDS) has become an essential tool for detecting attacks in computer networks and protecting the critical information and systems. The effectiveness of an NIDS is usually measured by the high number of detected attacks and the low number of false alarms. Machine learning techniques are widely used for building robust intrusion detection systems, which adapt with the continuous changes in the network attacks. However, a comparison of such machine learning techniques needs more investigation to show their efficiency and appropriateness for detecting sophisticated malicious attacks.
 The project goal is to detect and examine network traffic from malicious attacks by generating a machine learning model to classify the network traffic.
 
+## What is IDS (Intrusion Detection System)?
+Intrusion Detection Systems (IDS) are precisely present to prevent attacks and infiltration to Networks, which might affect the organization. They monitor network traffic for suspicious activities and issue alert in case of issues.
 
-# Data:
+### Types if IDS:
+1. Signature-based intrusion detection– In this kind incoming attacks are compared with pre-existing database of known attacks.
+2. Anomaly-based intrusion detection- It uses statistics to form a baseline usage of the networks at different time intervals. They were introduced to detect unknown attacks.
+
+Based on where they discover, they can be classified into:
+* Network intrusion detection (NIDS)
+* Host intrusion detection (HIDS)
+
+## Problem Statement:
+With the rise of Internet usage, it is very important to protect Networks. The most common risk to a network’s security is an intrusion such as brute force, denial of service or even an infiltration from within a network. With the changing patterns in network behavior, it is necessary to switch to a dynamic approach to detect and prevent such intrusions.
+
+### Importance of this dataset:
+Although there were few daatset available before this dataset for NIDS, but they were generated decades ago and do not provide realistic outputs. That's why this dataset had been created by Nour Moustafa to tackle existing problems like: unbalanced dataset, missing values etc.
+
+
+## Data:
 This data set has a hybrid of the real modern normal and the contemporary synthesized attack activities of the network traffic. Existing and novel methods are utilised to generate the features of the UNSW- NB15 data set. This data set is available [here](https://cloudstor.aarnet.edu.au/plus/index.php/s/2DhnLGDdEECo4ys?path=%2FUNSW-NB15%20-%20CSV%20Files%2Fa%20part%20of%20training%20and%20testing%20set).
 
 *  The obtained dataset consists of over 250,000 network traffic records with 45 features.
@@ -51,3 +68,10 @@ This data set has a hybrid of the real modern normal and the contemporary synthe
 33| attack_cat | The name of each attack category. In this data set, nine categories (e.g., Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms) |
 34| label | 0 if it is normal otherwise 1 | 
 
+## Tools:
+* python 3.9
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* sikit.learn
