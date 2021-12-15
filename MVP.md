@@ -18,9 +18,9 @@ data set, there are total nine categories of attack and normal is non-attack.
 ## Baseline Modeling Result:
 
 ### LogisticRegression:
-* Traning Score: 0.8517
-* Validation Accuracy: 0.8514
+* *Traning Score:* **0.8517**
+* *Validation Score:* **0.8514**
 
 ### KNN Classification:
-* Traning Score: 
-* Validation Accuracy: 0.8918
+* *Traning Score:* **0.9196**
+* *Validation Score:* **0.8918**
