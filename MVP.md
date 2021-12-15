@@ -4,7 +4,7 @@
 ## Plot heatmap of correaltion for better visualization:
 * Plotting the correlation matrix of the dataset
 
-<img width="800" alt="Screen Shot 2021-12-15 at 11 38 03 PM" src="https://user-images.githubusercontent.com/89771282/146261380-7abca0de-aa3b-4f33-9ce9-41273467e2ca.png">
+<img width="750" alt="Screen Shot 2021-12-15 at 11 38 03 PM" src="https://user-images.githubusercontent.com/89771282/146261380-7abca0de-aa3b-4f33-9ce9-41273467e2ca.png">
 
 
 ## Attack Category:
@@ -22,5 +22,5 @@ data set, there are total nine categories of attack and normal is non-attack.
 * Validation Accuracy: 0.8514
 
 ### KNN Classification:
-* Traning Score: 0.8517
+* Traning Score: 
 * Validation Accuracy: 0.8918
