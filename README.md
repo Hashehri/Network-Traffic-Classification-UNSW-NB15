@@ -31,8 +31,8 @@ This data set has a hybrid of the real modern normal and the contemporary synthe
 
 * Field Description:
 
-#| Field Name  | Description |
--| ----------- | ----------- |
+ Field Name  | Description |
+ ----------- | ----------- |
 | id          | unique identifier for each attack |
 | dur         | Record total duration         |
 | proto       | Transaction protocol      |
