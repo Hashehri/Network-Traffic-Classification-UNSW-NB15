@@ -64,9 +64,20 @@ This data set has a hybrid of the real modern normal and the contemporary synthe
 | dmean       | Mean of the flow packet size transmitted by the dst         |
 | trans_depth | the depth into the connection of http request/response transaction |
 | response_body_len | The content size of the data transferred from the server’s http service |
-| ct_srv_src     | No. of connections that contain the same service (4) and destination address (3) in 100 connections according to the last time (26)
+| ct_srv_src         | No. of connections that contain the same service and destination address in 100 connections according to the last time |
+| ct_state_ttl       | No. for each state according to specific range of values for source/destination time to live       |
+| ct_dst_ltm         | No. of connections of the same destination address in 100 connections according to the last time        | 
+| ct_src_dport_ltm   | No of connections of the same source address  and the destination port  in 100 connections according to the last time    | 
+| ct_dst_sport_ltm   | No of connections of the same destination address and the source port in 100 connections according to the last time    |
+| ct_dst_src_ltm     | No of connections of the same source and the destination address in in 100 connections according to the last time   | 
+| is_ftp_login       | If the ftp session is accessed by user and password then 1 else 0     | 
+| ct_ftp_cmd         | No of flows that has a command in ftp session |
+| ct_flw_http_mthd   | No. of flows that has methods such as Get and Post in http service        | 
+| ct_src_ltm         | No. of connections of the same destination address in 100 connections according to the last time     |
+| ct_srv_dst         | No. of connections that contain the same service and destination address in 100 connections according to the last time        |
+| is_sm_ips_ports    |  If source equals to destination IP addresses and port numbers are equal, this variable takes value 1 else 0        |
 | attack_cat | The name of each attack category. In this data set, nine categories (e.g., Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms) |
-| label | 0 if it is normal otherwise 1 | 
+| label | 0 for normal and 1 for attack records | 
 
 ## Tools:
 * python 3.9
