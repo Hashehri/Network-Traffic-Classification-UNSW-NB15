@@ -27,7 +27,7 @@ Although there were few daatset available before this dataset for NIDS, but they
 ## Data:
 This data set has a hybrid of the real modern normal and the contemporary synthesized attack activities of the network traffic. Existing and novel methods are utilised to generate the features of the UNSW- NB15 data set. This data set is available [here](https://cloudstor.aarnet.edu.au/plus/index.php/s/2DhnLGDdEECo4ys?path=%2FUNSW-NB15%20-%20CSV%20Files%2Fa%20part%20of%20training%20and%20testing%20set).
 
-*  The obtained dataset consists of over 250,000 network traffic records with 45 features.
+*  The obtained dataset consists of over 175k network traffic records with 45 features.
 
 * Field Description:
 
@@ -85,4 +85,7 @@ This data set has a hybrid of the real modern normal and the contemporary synthe
 * numpy
 * matplotlib
 * seaborn
-* sikit.learn
+* sklearn
+* PrettyTable
+* XGBoost
+* Pickle
